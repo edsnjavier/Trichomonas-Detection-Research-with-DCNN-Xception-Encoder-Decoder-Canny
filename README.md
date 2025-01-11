@@ -1,0 +1,1 @@
+# Trichomonas-Detection-Research-with-DCNN-Xception-Encoder-Decoder-Canny
