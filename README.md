@@ -1,7 +1,7 @@
 # Trichomonas Detection Research with DCNN-Xception, Encoder-Decoder, & Canny
 
 ## Description
-This project focuses on developing deep learning models integrating DCNN-Xception and Encoder-Decoder architectures with Canny Edge Detection to identify **Trichomonas vaginalis** in microscopic images. The models achieved impressive accuracy rates of 91% and 93%, respectively. Key contributions include fine-tuning the architecture, experimenting with and training the models, evaluating performance metrics, optimizing classification through data augmentation, and constructing the research framework.
+This project was developed as part of our undergraduate thesis that focuses on developing deep learning models integrating DCNN-Xception and Encoder-Decoder architectures with Canny Edge Detection to identify **Trichomonas vaginalis** in microscopic images. The models achieved impressive accuracy rates of 91% and 93%, respectively. Key contributions include fine-tuning the architecture, experimenting with and training the models, evaluating performance metrics, optimizing classification through data augmentation, and constructing the research framework.
 
 ---
 
