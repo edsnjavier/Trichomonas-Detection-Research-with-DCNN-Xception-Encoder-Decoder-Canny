@@ -7,9 +7,9 @@ This project was developed as part of our undergraduate thesis that focuses on d
 
 ## Dataset
 ### Source
-- **TVMI3K** (Li et al., 2022)
-- **MVDI25K** (Li et al., 2021)
-- **Video-to-Image Dataset** (Wang et al., 2021)
+- **[TVMI3K](https://zenodo.org/records/6792861)** (Li et al., 2022)
+- **[MVDI25K](https://zenodo.org/records/5523661)** (Li et al., 2021)
+- **[Video-to-Image Dataset](https://github.com/wxz92/Trichomonas-Vaginalis-Detection)** (Wang et al., 2021)
 
 ### Description
 Three datasets were used:
@@ -29,4 +29,17 @@ The dataset used in this project is in the public domain and free to use without
 - **Model Training**: Leveraged DCNN-Xception and Encoder-Decoder architectures with hyperparameter tuning.
 - **Performance Evaluation**: Measured accuracy, precision, recall, and F1-score.
 - **User Interface Testing**: Designed and tested a user-friendly interface for model integration.
+
+---
+
+## Repository Overview
+
+This repository contains the following files:
+- **Model Files**: These include pre-trained models in Keras format (e.g., `dcnn_base.keras`, `dcnn_canny.keras`, `encoder_base.keras`, `encoder_canny.keras`).
+- **GUI Code Files**: The repository includes Python files (`.py`) and Jupyter Notebook files (`.ipynb`) to test the model.
+- **Research Overview Presentation**: A presentation summarizing the research work is also included.
+
+### How to Use the Model
+In the provided Jupyter Notebook (`.ipynb`), users should change the path to their Google Drive folder where the model files are stored. Once the correct path is set, the models can be loaded and used for inference directly from the notebook.
+
 
